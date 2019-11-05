@@ -101,6 +101,7 @@ p {
 }
 
 .header-iphone img {
-  max-width: 100%;
-  position: relative;
+  max-width: 50%;
+  height: auto;
+
 }
