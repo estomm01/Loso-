@@ -63,6 +63,11 @@ p {
   font-size: 19px;
   text-transform: uppercase;
   border-radius: 3px;
+  transition: all ls;
+  -webkit-transition: all ls;
+  -moz-transition: all ls;
+  -o-transition: all ls;
+
 }
 .btn-download:hover {
   background-color: #129cf3;
@@ -80,10 +85,19 @@ p {
   font-weight: 500;
   background: transparent;
   transition: all ls;
+  -webkit-transition: all ls;
+  -moz-transition: all ls;
+  -o-transition: all ls;
 }
 
 .btn-tour:hover {
-  color: fff;
+
+    color: #fff;
+}
+.btn-tour {
+  font-size:20px;
+  padding-left: 5px;
+  color: #129cf3;
 }
 
 .header-iphone img {
