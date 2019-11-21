@@ -11,9 +11,10 @@ p {
   font-size: 14px;
 }
 
+/*header section*/
 .section-title{
   padding-top:50px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .section-title h2 {
@@ -65,6 +66,7 @@ p {
 
 .logo {
   padding-bottom: 50px;
+  padding-top: 25px;
 }
 
 .header-text h1 {
@@ -140,7 +142,7 @@ p {
 }
 
 .header-iphone img {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 /*about section*/
@@ -230,8 +232,12 @@ p {
   padding: 3px;
 }
 
-testimonial-caption {
-  padding-bottom:70px;
+.carousel-indicators li {
+  width: 50px;
+  height: 15px;
+}
+.testimonial-caption {
+  padding-bottom:10px;
 }
 
 .testimonial-caption h2{
@@ -348,11 +354,11 @@ line-height:25px;
 }
 .btn-purchase-now,
 .btn-purchase-now:active,
-.btn-purchase-focuse,
+.btn-purchase-focus,
 .btn-purchase-visited
 {
 background-color: #129cf3;
-border: 1px solide #129cf3;
+border: 1px solid #129cf3;
 color: #fff;
 border-radius: 3px;
 padding:15px 35px;
@@ -363,8 +369,13 @@ btn-purchase-now:hoover {
   background-color: #1274b1;
   border-color:#316b90;
 }
-/*===== Counter =======*/
+/*===== screens ======= no CSS*/
 
+
+
+
+
+/* /countercss// */
 .counter{
   background-image:url("../images/counter-bg.jpg");
   background-repeat:no-repeat;
@@ -401,4 +412,192 @@ btn-purchase-now:hoover {
   font-weight:300;
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-seif;
+}
+/*=====Download ==/ Available now=====*/
+
+.download-now img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.available-on {
+background-color: #333;
+ margin-top: -8px;
+ position: relative;
+
+}
+
+.available-title {
+  padding-top:75px;
+}
+
+.available-title h2{
+
+  color: #fff;
+  font-size:30px;
+}
+
+.available-title p{
+  color:#b5b5b5;
+}
+
+.no-padding{
+  padding-left:50px;
+  padding-right:60px;
+}
+
+.available-on-item{
+  text-align:center;
+  border-left:1px solid #0f1217;
+  min-height: 230px;
+  padding-bottom:15px;
+  position: relative;
+}
+
+/* .available-on-item:hover {
+  background-color: white; */
+
+.available-on-item i {
+  color:#129cf3;
+  text-align:center;
+  font-size: 40px;
+  padding-top:90px;
+}
+
+.available-on-item:hover i {
+  opacity:0;
+}
+
+.available-on-inner{
+  position: absolute;
+  bottom: 93px;
+  width: 100%;
+  opacity: 0;
+}
+.available-on-inner h2{
+text-align:center;
+font-weight: 300;
+color:#f2f5f7;
+font-size: 20px;
+}
+
+.available-on-item:hover div.available-on-inner{
+  opacity: 1;
+
+}
+/*----- contact us----------- */
+.contact-us-form .form-control{
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  background-color: transparent;
+  border:1px solid #aeaeae;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+  outline: 0px !important;
+
+}
+
+#message{
+  height: 120px;
+  resize: none;
+}
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+  background-color: transparent;
+  border: 1px solid #129cf3;
+  border-radius: 4px;
+  width:50%;
+  height:50px;
+  text-transform: uppercase;
+  color: #129cf3;
+  outline: 8px !important;
+
+}
+
+ .submit-btn:hover{
+  background: #129cf3;
+  color: #fff;
+  border-color: #129cf3;
+}
+.social-icons {
+  padding-top:40px;
+  padding-bottom:50px;
+}
+
+.social-icons ul{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+.social-icons ul li{
+  list-style: none;
+  display:inline;
+  padding-left:10px;
+}
+
+.social-icons ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-align:center;
+  border: 1px solid #9d9d9d;
+  border-radius:3px;
+  width:45px;
+  height: 45px;
+  line-height: 49px;
+  color: #9d9d9d;
+
+}
+.social-icons ul li a:hover {
+ background-color: #129cf3;
+ border: 1px solid #129cf3;
+ color:white;
+}
+.social-icons ul li a i {
+  font-size: 25px;
+}
+
+/*-----footer----------*/
+
+.footer {
+  background-color: black;
+  padding-bottom: 35px;
+ padding-top: 35px;
+ border-bottom: 3px solid #129cf3;
+
+}
+
+#copyright{
+    width: 50%;
+}
+
+#copyright p {
+  color: #8C8b8a;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#copyright p a {
+  text-decoration: none;
+  color: #129cf3;
+}
+.scroll-top {
+  text-align: right;
+}
+.scroll-top a {
+  background-color: #129cf3;
+  padding:25px;
+}
+.scroll-top a i {
+  color: #ffff;
+  font-size:25px;
 }
