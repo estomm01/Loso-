@@ -53,6 +53,7 @@ p {
 .bg-light{
   background-color:transparent;
   border-color: #444;
+  z-index: 110;
 }
 
 
