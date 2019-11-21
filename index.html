@@ -3,52 +3,433 @@
 <html>
 
 <head>
-    <title>Loso - Simple, Clean And Responsive Website</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loso - Simple, Clean And Responsive Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
-
-    <!--favicon-->
-    <link rel="icon" type="image/png" href="image//favicon.png">
-
-    <!--fontawesome-->
-    <script src="https://kit.fontawesome.com/145abdbdb7.js" crossorigin="anonymous"></script>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script> -->
-
+  <!--favicon-->
+  <link rel="icon" type="image/png" href="image//favicon.png">
+  <!--fontawesome-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
-
 <body>
     <!-- header -->
-    <header class="header">
+    <header class="header" ID="home">
 
-        <div class="header-overlay">
+          <!--Navigation---->
 
-            <div class="container">
-                <!-- single row -->
-                <div class="row">
-                    <!-- col-left -->
-                    <div class="col-md-12">
-                        <div class="logo text-center">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <div class="container">
+                     <div class="navbar-header">
+                          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"  data-target="#loso-navbar-collapse-1"
+                          aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                           </button>
+                          <a class="navbar-brand" href="#">
+                             <img src="images/logo-small.png" alt="logo">
+                           </a>
+                       </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="loso-navbar-collapse-1">
 
+                        <ul class="nav navbar-nav justify-content-end">
+                          <li><a class="nav-item nav-link" href="#HOME">HOME</a></li>
+                          <li><a class="nav-item nav-link" href="#ABOUT">ABOUT</a></li>
+                          <li><a class="nav-item nav-link" href="#FEATURES">FEATURES</a></li>
+                          <li><a class="nav-item nav-link" href="#SCREENS">SCREENS</a></li>
+                          <li><a class="nav-item nav-link" href="#DOWNLOAD">DOWNLOAD</a></li>
+                          <li><a class="nav-item nav-link" href="#CONTACT">CONTACT</a></li>
+                           <!-- <a class="nav-item nav-link" href="#">FEATURES</a>
+                          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">SCREENS</a> -->
+                         </ul>
+
+                     </div>
+               </div>
+           </nav>
+
+
+       <div class="header-overlay">
+
+           <div class="container">
+              <!-- single row -->
+              <div class="row">
+                   <!-- col-left -->
+                   <div class="col-md-8">
+                         <div class="logo text-center">
                             <img src="images/logo.png" alt="logo">
-                        </div>
+                         </div>
+                   </div>
+               </div>
+
+               <div class="row">
+                     <div class="col-md-8">
+                           <div class="header-text">
+                               <h1> A clean an modern looking resonsive website</h1>
+                               <p> Built with great enthusiam!</p>
+                           </div>
+                           <div class="header-btns">
+
+                                <!--header buttons-->
+                                <a class="btn btn-download" href="#">Download</a>
+                                <a class="btn btn-tour" href="#"> Take A Tour
+                                <i class="fas fa-angle-down"></i>
+                                </a>
+                           </div>
+                      </div>
+
+                     <div class="col-md-3 col-md-offset-1">
+
+                           <div class="header-iphone">
+                               <!--image iphone-->
+                               <img src="images/iphone-header.png"  alt="header iphone">
+                           </div>
+                     </div>
+
+               </div>
+
+           </div>
+
+       </div>
+
+     </header>
+
+  <!--About us-->
+
+ <section id="ABOUT">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          <!--About us Title & Description-->
+          <div class="section-title">
+              <h2> About us</h2>
+              <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit similique rerum illo ut! Accusamus omnis
+              reiciendis ipsa aliquid nisi odit? Corporis voluptatum id, placeat rerum aut ipsam repellat distinctio
+              voluptate.
+               </p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="choose-us-wrapper">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+
+                    <!--about iphone-->
+                    <div class="about-iphone">
+                       <img src="images/about-iphone.png" alt="iphone">
                     </div>
+               </div>
+               <div class="col-md-6">
+                           <!-- why choose us title-->
+                           <div class="choose-us-title">
+
+                           <h2>Why choose us?</h2>
+                           <p>We don’t pursue every company that needs computer support. We choose only clients that share in our values. Serving a company’s IT and critical network needs is a HUGE responsibility that we take that very seriously. It takes teamwork and a solid commitment to good </p>
+                           </div>
+                          <!--why choose us description-->
+                          <div class="choose-us-des">
+                              <!--choose us item 1-->
+                              <div class="choose-us-item">
+
+                                    <!--choose us item icon-->
+                                    <div><i class="fa fa-bolt"></i></div>
+
+                                    <!--choose us item title & des-->
+                                    <h3>Latest Technology</h3>
+                                    <p>The Oslo and its predecessors are more than just fancy cell phones. With their range of features – from phone to web browser, from iPod to mobile game device – the iPhone is more like a computer that fits in your pocket and your hand than any cell phone.</p>
+                               </div>
+
+                               <!--choose item 2-->
+                               <div class="choose-us-item">
+
+                                   <!--choose us item icon-->
+                                   <div><i class="fa fa-bullhorn"></i></div>
+
+                                  <!--choose us item title & des-->
+                                   <h3>Video Playback</h3>
+                                   <p>With its big, beautiful, 3.5-inch screen, the iPhone is a great choice for mobile video playback, whether using the built-in YouTube application, adding your own video, or buying or renting content from the iTunes Store.</p>
+                               </div>
+                                  <!--choose item 3-->
+                               <div class="choose-us-item">
+                                  <!--choose us item icon-->
+                                  <div><i class="fa fa-flag-o"></i></div>
+
+                                  <!--choose us item title & des-->
+                                 <h3>Advanced Web Browsing</h3>
+                                 <p>Web browsing – The iPhone offers the best, most complete mobile browsing experience. Though it doesn’t support the standard Flash browser plugin, it doesn’t require dumbed-down “mobile” versions of websites, instead offering the real thing on a phone.</p>
+                               </div>
+                            </div>
+               </div>
+             </div>
+         </div>
+      </div>
+  </section>
+
+<!--testimonials----->
+
+<section class="testimonial">
+    <div class="testimonial-overlay">
+          <div class="container">
+
+                 <div class="row">
+                     <div class="col-md-12">
+
+                       <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+
+                                  <!--indicators-->
+                                  <ol class="carousel-indicators">
+                                      <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carousel-testimonial"  data-slide-to="1"></li>
+                                      <li data-target="#carousel-testimonial"  data-slide-to="2"></li>
+                                   </ol>
+
+                                  <!--wrapper for slides-->
+
+                             <div class="carousel-inner">
+
+                                  <!--item 01-->
+
+                                  <div class="carousel-item active text-center">
+                                    <img src="images/me boot.jpg"
+                                    alt="testimonial"
+                                    class="center-block">
+                                    <div class="testimonial-caption">
+                                      <h2>Markus</h2>
+                                      <h4><span>Sr. Software Developer, </span>Work Force</h4>
+                                      <p>Ambitious and creative Software Engineer with a successful history as an entrepreneur and team builder. Motivated designer and developer who loves to transform ideas into reality using code. Experienced developer creating custom websites focused in, but not limited to, MERN (Mongo, Express, React, Node) full stack. I'm a detailed-oriented professional with an enthusiasm for assisting in the growth and development of a company.
+                                      </p>
+                                     </div>
+                                   </div>
+
+                                    <!--item 02-->
+                                  <div class="carousel-item text-center">
+                                       <img src="images/client-02.jpg" class="center-block" alt="testimonial">
+                                       <div class="testimonial-caption">
+
+                                          <h2>Rauls</h2>
+                                          <h4><span>Marketing Manager, </span>Summit</h4>
+                                          <p>Marketing manager responsibilities include tracking and analyzing the performance of advertising campaigns, managing the marketing budget and ensuring that all marketing material is in line with our brand identity. To be successful in this role, you should have hands-on experience with web analytics tools and be able to turn creative ideas into effective advertising projects.
+                                         </p>
+                                       </div>
+                                   </div>
+                                     <!--item 03-->
+                                  <div class="carousel-item text-center">
+                                       <img src="images/client-03.jpg" class="center-block" alt="testimonial">
+                                       <div class="testimonial-caption">
+
+                                          <h2>Bill</h2>
+                                          <h4><span>Assistant Manager, </span>Works</h4>
+                                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut repudiandae laudantium, quam quibusdam inventore excepturi corporis iusto deserunt ut laboriosam maiores exercitationem a? Odio eveniet veniam ducimus laboriosam maxime autem?
+                                         </p>
+                                       </div>
+                                   </div>
+                              </div>
+
+                        </div>
+                     </div>
+
+                 </div>
+           </div>
+     </div>
+ </section>
+
+
+<!---Features---->
+
+<section class="features" id="FEATURES">
+
+   <div class="container">
+
+        <div class="row">
+
+             <div class="col-md-12 cold-md-offset-1">
+
+                  <div class="section-title">
+                        <h2>Features</h2>
+                        <p>Get to know Oslo new Phones. ...
+                            Bigger screen sizes. ...
+                            Beastly A12 Bionic processor. ...
+                            Camera enhancements. ...
+                            A new tool for portrait shots. ...
+                            More colorful OLED screens. ...
+                            Long battery life. ...
+                            Faster Face ID..</p>
+                   </div>
+              </div>
+         </div>
+   </div>
+   <div class="features-inner-wrapper">
+
+        <div class="container">
+
+            <div class="row">
+                 <div class="col-md-4">
+
+                   <!---left feature item 01--->
+                   <div class="left-feature-item">
+
+                      <!---icon----->
+                      <div class="left-feature-item-icon">
+                          <i class="fa fa-desktop"></i>
+                      </div>
+
+                      <!--feature item title & description----->
+                     <h3>Retina Ready</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+
+                       <!---left feature item 02--->
+                     <div class="left-feature-item">
+
+                          <!---icon----->
+                         <div class="left-feature-item-icon">
+                            <i class="fa fa-mobile"></i>
+                         </div>
+
+                         <!--feature item title & description----->
+                         <h3>Mobile Ready</h3>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     </div>
+
+                          <!---left feature item 03--->
+                     <div class="left-feature-item">
+
+                          <!---icon----->
+                      <div class="left-feature-item-icon">
+                          <i class="fa fa-eye"></i>
+                      </div>
+
+                          <!--feature item title & description----->
+                          <h3>Easy Layout</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                       </div>
+                 </div>
+
+                 <div class="col-md-4">
+                      <div class="feature-iphone">
+                           <img src="images/iphone-02.png" alt="feature iphone">
+                       </div>
+                 </div>
+
+                 <div class="col-md-4">
+
+                      <!---right feature item 01--->
+                     <div class="right-feature-item">
+
+                          <!---icon----->
+                          <div class="right-feature-item-icon">
+                              <i class="fa fa-certificate"></i>
+                          </div>
+
+                          <!---feature item title and descrip---->
+                          <h3> Certified Solution</h3>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                     </div>
+
+                           <!---right feature item 02--->
+                     <div class="right-feature-item">
+
+                          <!---icon----->
+                          <div class="right-feature-item-icon">
+                              <i class="fa fa-rss"></i>
+                          </div>
+
+                          <!---feature item title and descrip---->
+                          <h3> CONSTANT FEED</h3>
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                     </div>
+                           <!---right feature item 03--->
+                     <div class="right-feature-item">
+
+                              <!---icon----->
+                           <div class="right-feature-item-icon">
+                              <i class="fa fa-database"></i>
+                           </div>
+
+                             <!---feature item title and descrip---->
+                            <h3> SECURE DATA</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+    </div>
+
+</section>
+
+<!----Purchase Now------>
+
+<section class="purchase-now">
+
+   <div class="container">
+
+      <div class="row">
+          <div class="col-md-9">
+
+               <p>To get the latest technology click the purchase button.
+               </p>
+           </div>
+           <div class="col-md-3">
+
+               <a class="btn btn-primary btn-purchase-now" href="#">Purchase Now</a>
+           </div>
+       </div>
+    </div>
+
+
+
+</section>
+
+
+<!----Screens--------------->
+
+<section class="screens" id="SCREENS">
+
+    <div class="container">
+         <div class="row">
+
+              <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+
+                         <h3> Screens </h3>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus officiis inventore repellat error blanditiis. Quas </p>
+                     </div>
+               </div>
+
+         </div>
+     </div>
+     <div class="screen-slider">
+        <div class="carousel">
+              <div class="item">
+                   <img src="images/screen-01.png" width="60" height="60" alt="screen">
+              </div>
+              <div class="item">
+                   <img src="images/screen-02.png" width="60" height="60" alt="screen">
+              </div>
+              <div class="item">
+                   <img src="images/screen-03.png" width="60" height="60" alt="screen">
+              </div>
+              <div class="item">
+                   <img src="images/screen-04.png" width="60" height="60" alt="screen">
+              </div>
+
                 </div>
             </div class="row">
             <div class="col-md-8">
@@ -72,9 +453,267 @@
         </div>
         </div>
         </div>
-    </header>
-    <script src="js/jquery.js"></script>
-    <scrpit src="js/bootstrap.min.js"></scrpit>
+     </div>
+
+</section>
+
+
+<!------Counter------------>
+
+<section class="counter">
+
+    <div class="counter-overlay">
+         <div class="row text-center">
+
+              <div class="col-md-3">
+
+                    <div class="counter-item">
+
+                           <div><i class="fa fa-cloud-download">
+                           </i></div>
+                           <h2><span class="counter-num"> 1588 </span><span>+<span></span></h2>
+                           <p>Download</p>
+                     </div>
+               </div>
+               <div class="col-md-3">
+
+                    <div class="counter-item">
+
+                           <div><i class="fa fa-gift">
+                           </i></div>
+                           <h2><span class="counter-num"> 3500 </span><span>+<span></span></h2>
+                           <p>Awards</p>
+                     </div>
+               </div>
+               <div class="col-md-3">
+
+                    <div class="counter-item">
+
+                           <div><i class="fa fa-heart-o">
+                           </i></div>
+                           <h2><span class="counter-num"> 1999 </span><span>+<span></span></h2>
+                           <p>Likes</p>
+                     </div>
+               </div>
+               <div class="col-md-3">
+
+                    <div class="counter-item">
+
+                           <div><i class="fa fa-check">
+                           </i></div>
+                           <h2><span class="counter-num"> 1066 </span><span>+<span></span></h2>
+                           <p>Recomended</p>
+
+                     </div>
+
+          </div>
+     </div>
+</section>
+
+<!------Download Now----------->
+
+<section class="download-now" id="DOWNLOAD">
+
+    <div class="container">
+
+         <div class="row">
+
+              <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+
+                       <h2>Download Now</h2>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eius facere suscipit sint soluta quaerat quas ipsum. Error.</p>
+
+                     </div>
+               </div>
+          </div>
+     </div>
+     <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-2">
+
+                      <img src="images/download-screen.png" alt="download screen">
+                 </div>
+             </div>
+     </div>
+ </section>
+
+
+ <!---Available On------>
+
+
+<section class="available-on">
+
+    <div class="container">
+
+         <div class="row">
+
+              <div class="col-md-6">
+
+                    <div class="available-title">
+
+                        <h2>Available Now</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                     </div>
+               </div>
+               <div class="col-md-6">
+                       <div class="row">
+
+                            <a href="#">
+
+                                <div class="col-md-4 no-padding">
+                                       <div class="available-on-item">
+
+                                           <i class="fab fa-apple"></i>
+                                           <div class="available-on-inner">
+                                                <h2>ioS</h2>
+                                           </div>
+                                       </div>
+                                 </div>
+                             </a>
+
+                             <a href="#">
+
+                                      <div class="col-md-4 no-padding">
+                                         <div class="available-on-item">
+
+                                              <i class="fab fa-android"></i>
+                                              <div class="available-on-inner">
+                                                <h2>ANDROID</h2>
+                                               </div>
+
+                                         </div>
+                                       </div>
+                             </a>
+                             <a href="#">
+
+                                    <div class="col-md-4 no-padding">
+                                          <div class="available-on-item">
+
+                                                <i class="fab fa-windows"></i>
+                                                <div class="available-on-inner">
+                                                   <h2>WINDOWS</h2>
+                                                 </div>
+
+                                           </div>
+                                      </div>
+                             </a>
+
+                       </div>
+               </div>
+         </div>
+     </div>
+ </section>
+
+
+<!----Contact Us--------->
+
+<section class="contact-us" id="CONTACT">
+
+      <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto modi eaque perspiciatis cum voluptatum vel. Reiciendis porro eaque quidem neque amet magnam quibusdam facere, repellat dolorem nesciunt excepturi unde possimus.</p>
+                     </div>
+
+                 </div>
+
+             </div>
+
+       </div>
+       <div class="contact-us-form">
+
+            <div class="container">
+
+                  <form role="form">
+
+                        <div class="row">
+
+                              <div class="col-md-4">
+
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                    <input type="text" class="form-control" id= "subject" placeholder="Subject">
+                              </div>
+
+                              <div class="col-md-8">
+                                   <textarea class= "form-control" id="message" rows="15" cols="10" placeholder="Message Text......"></textarea>
+                                   <button type="button" class="btn btn-default submit-btn form_submit">SEND</button>
+                               </div>
+                         </div>
+
+
+                   </form>
+             </div>
+       </div>
+
+       <div class="container">
+             <div class="row">
+
+                   <div class="col-md-12">
+
+                        <div class="social-icons">
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                             </ul>
+                         </div>
+                    </div>
+              </div>
+       </div>
+
+ </section>
+
+
+<!----footer------------>
+
+<footer class="footer">
+        <div class="container">
+
+            <div class="row">
+
+                  <div class="col-md-6">
+
+                        <div id="copyright">
+                            <p>copyright & copy; 2016 <a href="#"> - Loso</a></p>
+                        </div>
+                   </div>
+                   <div class="col-md-6">
+                          <div class="scroll-top">
+                              <a href="#HOME"><i class="fa fa-angle-up"></i></a>
+                           </div>
+                   </div>
+             </div>
+         </div>
+ </footer>
+
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/145abdbdb7.js" crossorigin="anonymous"></script>
+  <!-- <script src="js/jquery.js"></script>
+  <scrpit src="js/bootstrap.min.js"></scrpit> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
