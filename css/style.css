@@ -56,7 +56,9 @@ p {
   z-index: 110;
 }
 
-
+.bg-light{
+  background-color:transparent;
+}
 
 
 
