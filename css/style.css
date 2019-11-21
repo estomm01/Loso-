@@ -50,7 +50,10 @@ p {
 
 /*======Navigation=======*/
 
-
+.bg-light{
+  background-color:transparent;
+  border-color: #444;
+}
 
 
 
