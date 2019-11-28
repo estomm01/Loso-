@@ -6,6 +6,7 @@ body {
   font-family: "Raleway", sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 p {
   font-size: 14px;
@@ -51,8 +52,11 @@ p {
 /*======Navigation=======*/
 
 .navbar-default{
- background-color:transparent;
- z-index: 110 !important;
+ background-color: transparent;
+ border-color: #444;
+ /* z-index: 3; */
+/* position: fixed; */
+
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -61,11 +65,13 @@ font-family: "Raleway", sans-seif;
 font-size: 15px;
 }
 
-.navbar-nav > li > a:hover {
-color: #129cf3 !important;
+.navbar-default .navbar > li > a:hover {
+color:red !important;
+background-color: red !important;
 }
-.navbar-expand-lg .navbar-nav > li > a:focus {
-color: #858585 !important;
+
+.navbar-default .navbar-nav > li > a:focus {
+color: red !important;
 }
 
 .navbar-brand {
@@ -74,7 +80,7 @@ color: #858585 !important;
 
 .navbar-default .navbar-nav > .active>a,
 .navbar-default .navbar-nav> .active>a:hover,
-.navbar-default .navbar-nav> .active>a:focus{
+.navbar-default .navbar-nav> .active>a:focus {
  background-color: transparent;
  color: #e75057 !important;
 }
