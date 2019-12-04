@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -51,38 +52,43 @@ p {
 
 /*======Navigation=======*/
 
-.navbar-default{
- background-color: transparent;
- border-color: #444;
+/* .navbar-default{
+ background-color: transparent !important;
+ border-color: #444; */
  /* z-index: 3; */
 /* position: fixed; */
-
-}
-
-.navbar-default .navbar-nav > li > a {
+.navbar-nav .nav-item {
 color: #858585 !important;
 font-family: "Raleway", sans-seif;
 font-size: 15px;
 }
 
-.navbar-default .navbar > li > a:hover {
-color:red !important;
-background-color: red !important;
+/* .navbar .navbar-nav li a:hover { */
+/* color:red !important; */
+/* background-color: red !important; */
+
+
+.nav-item:hover {
+  color:#129cf3 !important;
 }
 
-.navbar-default .navbar-nav > li > a:focus {
-color: red !important;
+
+.navbar-nav .nav-item:focus {
+color: #858585 !important;
 }
 
 .navbar-brand {
   padding: 9px 15px;
 }
 
-.navbar-default .navbar-nav > .active>a,
+/* .navbar .navbar-nav li a,
 .navbar-default .navbar-nav> .active>a:hover,
 .navbar-default .navbar-nav> .active>a:focus {
- background-color: transparent;
- color: #e75057 !important;
+  background-color:transparentt;
+ /* color: #129cf3 !important; */
+
+.navbar-toggler {
+  background-color:#129cf3;
 }
 
 
