@@ -433,14 +433,14 @@ html, body { background: #333 url("https://codepen.io/images/classy_fabric.png")
     position: relative;
 }
 
-/* .slides * {
+ .slides {
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
-} */
+}
 
 .slides input { display: none; }
 
