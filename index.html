@@ -18,6 +18,11 @@
   <link rel="icon" type="image/png" href="image//favicon.png">
   <!--fontawesome-->
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--animate css-->
+  <link rel="stylesheet" href="animate.min.css">
+  <!--wow.js-->
+  <link rel="stylesheet" href="css/animate.css">
+
   <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -80,8 +85,8 @@
                            <div class="header-btns">
 
                                 <!--header buttons-->
-                                <a class="btn btn-download" href="#">Download</a>
-                                <a class="btn btn-tour" href="#"> Take A Tour
+                                <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+                                <a class="btn btn-tour wow fadeInRight" href="#"> Take A Tour
                                 <i class="fas fa-angle-down"></i>
                                 </a>
                            </div>
@@ -128,11 +133,11 @@
                <div class="col-md-6">
 
                     <!--about iphone-->
-                    <div class="about-iphone">
+                    <div class="about-iphone wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".5s">
                        <img src="images/about-iphone.png" alt="iphone">
                     </div>
                </div>
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                            <!-- why choose us title-->
                            <div class="choose-us-title">
 
@@ -142,7 +147,7 @@
                           <!--why choose us description-->
                           <div class="choose-us-des">
                               <!--choose us item 1-->
-                              <div class="choose-us-item">
+                              <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
 
                                     <!--choose us item icon-->
                                     <div><i class="fa fa-bolt"></i></div>
@@ -153,7 +158,7 @@
                                </div>
 
                                <!--choose item 2-->
-                               <div class="choose-us-item">
+                               <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
 
                                    <!--choose us item icon-->
                                    <div><i class="fa fa-bullhorn"></i></div>
@@ -163,7 +168,7 @@
                                    <p>With its big, beautiful, 3.5-inch screen, the iPhone is a great choice for mobile video playback, whether using the built-in YouTube application, adding your own video, or buying or renting content from the iTunes Store.</p>
                                </div>
                                   <!--choose item 3-->
-                               <div class="choose-us-item">
+                               <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                   <!--choose us item icon-->
                                   <div><i class="fa fa-flag-o"></i></div>
 
@@ -185,7 +190,7 @@
             <div class="container">
 
                  <div class="row">
-                     <div class="col-md-12">
+                     <div class="col-md-12 wow bounceInDown">
 
                         <div id="carousel-testimonial" class="carousel-slide" data-ride="carousel">
 
@@ -256,7 +261,7 @@
 
              <div class="col-md-12 cold-md-offset-1">
 
-                  <div class="section-title">
+                  <div class="section-title wow fadeIn" data-wow-duration="1s"">
                         <h2>Features</h2>
                         <p>Get to know Oslo new Phones. ...
                             Bigger screen sizes. ...
@@ -275,7 +280,7 @@
         <div class="container">
 
             <div class="row">
-                 <div class="col-md-4">
+                 <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
 
                    <!---left feature item 01--->
                    <div class="left-feature-item">
@@ -320,11 +325,11 @@
 
                  <div class="col-md-4">
                       <div class="feature-iphone">
-                           <img src="images/iphone-02.png" alt="feature iphone">
+                           <img class="wow bounceIn" data-wow-duration="1s" src="images/iphone-02.png" alt="feature iphone">
                        </div>
                  </div>
 
-                 <div class="col-md-4">
+                 <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
 
                       <!---right feature item 01--->
                      <div class="right-feature-item">
@@ -377,7 +382,7 @@
 
    <div class="container">
 
-      <div class="row">
+      <div class="row wow fadeInLeftBig" data-wow-duration="1s">
           <div class="col-md-9">
 
                <p>To get the latest technology click the purchase button.
@@ -398,7 +403,7 @@
 <!----Screens--------------->
 <!----Screens--------------->
 
-<section class="screens">
+<section class="screen-slider wow bounceInRight" data-wow-duration="1s">
 
     <div class="container">
          <div class="row">
@@ -507,6 +512,8 @@
 <section class="counter">
 
     <div class="counter-overlay">
+
+      <div class="container wow bounceInLeft" data-wow-duration="1s">
          <div class="row text-center">
 
               <div class="col-md-3">
@@ -549,10 +556,11 @@
                            <p>Recomended</p>
 
                      </div>
-
-          </div>
+                 </div>
+         </div>
+       </div>
      </div>
-</section>
+ </section>
 
 <!------Download Now----------->
 
@@ -577,7 +585,7 @@
 
             <div class="row">
 
-                <div class="col-md-10 col-md-offset-2">
+                <div class="col-md-10 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
 
                       <img src="images/download-screen.png" alt="download screen">
                  </div>
@@ -591,7 +599,7 @@
 
 <section class="available-on">
 
-    <div class="container">
+    <div class="container wow bounceInRight" data-wow-duration="1s">
 
          <div class="row">
 
@@ -657,7 +665,7 @@
 
 <section class="contact-us" id="CONTACT">
 
-      <div class="container">
+      <div class="container wow bounceIn">
 
             <div class="row">
 
@@ -673,7 +681,7 @@
              </div>
 
        </div>
-       <div class="contact-us-form">
+       <div class="contact-us-form wow bounceIn">
 
             <div class="container">
 
@@ -704,7 +712,7 @@
 
                    <div class="col-md-12">
 
-                        <div class="social-icons">
+                        <div class="social-icons wow bounceInLeft">
 
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -762,7 +770,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-
+<!---adding wow-->
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <!--adding JS counter library -->
     <script src="js/jquery.waypoints.min.js"></script>
     <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
