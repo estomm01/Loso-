@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooooth;
 }
 
 p {
@@ -425,7 +425,7 @@ html, body { background: #333 url("https://codepen.io/images/classy_fabric.png")
 
  .slides {
     padding: 0;
-    width: 440px;
+    width: 420px;
     height: 420px;
     display: block;
     margin: 0 auto;
